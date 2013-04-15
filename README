@@ -1,0 +1,13 @@
+export.py is a program that can be used to export data from generation 2 pokemon games. 
+
+Much of the effort has been reorganized into PokeExport, another java project on here. It is a lot more structured there in preparation for the android port. This utility is still useful though when looking and dealing directly with the bytes, as java can be a bit of a pain with that.
+
+USAGE:
+
+	python export.py *.sav
+	python export.py -gui *.sav
+
+The tool uses easygui to easily display the information in a readable format. This provides quick access to information that would otherwise not be viewable. Screenshots are below.
+
+http://i.imgur.com/Mf3mPnW.png
+http://i.imgur.com/v20Oe2C.png
